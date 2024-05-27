@@ -1,0 +1,130 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+footer .all-footer {
+  display: grid;
+  padding: 50px 50px;
+}
+footer .all-footer .footer-left .first-text h2 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+footer .all-footer .footer-left .first-text p {
+  font-size: 14px;
+}
+footer .all-footer .footer-right {
+  display: grid;
+}
+footer .all-footer .footer-right ul {
+  display: grid;
+}
+footer .all-footer .footer-right ul strong {
+  padding-bottom: 10px;
+}
+footer .all-footer .footer-right ul li {
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+.footer-last {
+  display: grid;
+  padding: 50px 50px;
+}
+.footer-last .footerlast-left h4 {
+  color: gray;
+}
+.footer-last .footer-right .icons {
+  display: grid;
+  padding-left: 25px;
+  font-size: 20px;
+}
+.footer-last .footer-right .icons i {
+  padding-left: 10px;
+}
+
+@media (max-width: 1440px) {
+  .all-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .footer-last {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .icons {
+    margin-left: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  .all-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer-left h2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 300px;
+  }
+  .footer-left p {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 250px;
+    padding-bottom: 15px;
+  }
+  .footer-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 300px;
+  }
+  .footer-last {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .all-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer-left h2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 150px;
+  }
+  .footer-left p {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 100px;
+    padding-bottom: 15px;
+  }
+  .footer-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 150px;
+  }
+  .footer-last {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footerlast-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px 0px 0px 0px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .icons {
+    display: grid;
+    margin-left: 20px;
+  }
+}
